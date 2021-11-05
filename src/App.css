@@ -1,0 +1,171 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #b1b3c0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.content {
+  margin: 0 Auto;
+  width : 100%;
+  text-align: center;
+}
+
+.itemCard {
+  width: 400px;
+  height: auto;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+.card {
+  width: 415px;
+  height: auto;
+  text-align: center;
+}
+
+.itemImage {
+  height: 200px;
+  width: 200px;
+}
+
+.leagueCardDetails {
+  width: 600px;
+  height: auto;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+.cardDetails {
+  width: 600px;
+  height: auto;
+  text-align: center;
+}
+
+.leagueImageDetails {
+  height: 400px;
+  width: 400px;
+  margin-block-end: 2em;
+}
+
+
+.seriesCard{
+  width: 600px;
+  margin: 0 auto;
+  margin-block-end: 1em;
+  padding: 10px;
+}
+
+.seriesCard span{
+  display : block;
+  margin-block-end: 5px;
+}
+.seriesCard h4 {
+  color : #d1b719;
+}
+
+.seriesCard h3 {
+  color : #2F575D;
+}
+
+.pagination {
+  width: 355px;
+  margin: 0 auto;
+  margin-block-end: 3em;
+}
+
+.link {
+  display: block;
+}
+
+#teammember {
+  display: block;
+  margin-block-end: 1em;
+  text-transform: capitalize;
+}
+h1 {
+  color : #2F575D;
+}
+
+.detailsButton {
+  margin-left: auto!important;
+  margin-right: 0!important;
+  text-decoration: underline!important;
+  font-weight: bold!important;
+}
+
+#winnerDetailsButton{
+  margin-block-start: 1em;
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#seriesState {
+  margin-block-end: 2em;
+  width : 125px;
+  border-radius : 6px;
+  background-color : #2F575D!important;
+}
+
+#seriesState .MuiFormLabel-root{
+  color: white!important;
+}
+
+#seriesState.MuiFilledInput-root.Mui-focused{
+  background-color : #2F575D!important;
+}
+
+.MuiFilledInput-underline:before{
+  border-bottom: none!important;
+}
+
+
+.MuiFilledInput-underline:after{
+  border-bottom: none!important;
+}
+
+i{
+  display : block;
+}
+
+#seriesStateLabel {
+  vertical-align: -webkit-baseline-middle;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #2F575D;
+}
